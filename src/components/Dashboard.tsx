@@ -1,3 +1,4 @@
+import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { Progress } from "./ui/progress";
@@ -149,7 +150,11 @@ export function Dashboard({ userName, onNavigate }: DashboardProps) {
                     <Award className="h-4 w-4" />
                     <span className="text-sm">Nível: Nexus Prata</span>
                   </div>
-                  <Progress value={progress} className="h-2 bg-black/20" />
+                  <Progress 
+  value={progress} 
+  className="h-2 bg-black/20" 
+  indicatorClassName="bg-black" 
+/>
                   <p className="text-black/70 text-sm mt-2">
                     Faltam {(nextLevelPoints - userPoints).toLocaleString('pt-BR')} pontos para Ouro
                   </p>
