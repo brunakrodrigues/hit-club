@@ -165,7 +165,7 @@ export function LandingPage({ onLogin }: LandingPageProps) {
         <div className="container mx-auto max-w-4xl text-center">
           <Award className="h-16 w-16 text-[#d4af37] mx-auto mb-6" />
           <h2 className="font-bebas text-5xl md:text-6xl text-white uppercase tracking-wider mb-6">
-            Pronto para se juntar ao <span className="text-[#d4af37]">Nexus</span>?
+            Pronto para ser <span className="text-[#d4af37]">Nexus</span>?
           </h2>
           <p className="text-xl text-gray-400 mb-8">
             Junte-se à maior comunidade de fãs do universo sertanejo e de rodeios do Brasil
