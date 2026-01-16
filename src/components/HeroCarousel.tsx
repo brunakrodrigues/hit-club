@@ -6,12 +6,12 @@ import { Trophy, ChevronLeft, ChevronRight } from 'lucide-react';
 // Importação das imagens locais
 // Certifique-se de que o caminho './assets/' está correto para a sua estrutura
 import anaCastelaImg from '../assets/anacastela.jpg';
-import gusttavoLimaImg from '../assets/gusttavolima.png';
-import jorgeMateusImg from '../assets/jorgeemateus.jpeg';
-import luanSantanaImg from '../assets/luansantana.jpg';
+import gusttavoLimaImg from '../assets/gusttavolima.jpg';
+import jorgeMateusImg from '../assets/jorgeemateus.jpg';
+import luanSantanaImg from '../assets/luansantana.png';
 import maiaraMaraisaImg from '../assets/maiaraemaraisa.png';
 import zezeImg from '../assets/zezedicamargo.png';
-import showImg from '../assets/show.jpeg';
+import showImg from '../assets/show.jpg';
 
 interface HeroCarouselProps {
   onLogin: () => void;
